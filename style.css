@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Muli", sans-serif;
+  background-color: rgb(187,186,181) ;
+  /* background-color: rgb(121,165,214); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  margin:0;
+}
+
+.container {
+  width: 80vw;
+}
+
+.bg {
+  /* width: 48%; */
+  width: 66.66%;
+  height:250px;
+  /* background-image: url(https://cdn.pixabay.com/photo/2018/11/03/21/42/sunflowers-3792914__340.jpg); */
+  background-image: url(./images/IMG_2109.JPG);
+  background-size: cover;
+  background-attachment:fixed;
+  box-shadow: inset 0 0 15px 10px rgba(0,0,0,0.5);
+}
+
+.bg:nth-of-type(2n){
+  margin-left:33.33%;
+}
+
+p {
+  line-height: 1.5;
+  max-width: 66.66%;
+}
+
+p:nth-of-type(2n) {
+  margin-left: 33.33%;
+}
